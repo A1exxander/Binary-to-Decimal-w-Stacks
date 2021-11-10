@@ -42,10 +42,11 @@ public:
 
     void purge() {
         if (!isEmpty()) {
-            for (auto i = 0; i < myArray.size(); ++i) {
+            for (auto i = top; i > 0; --i) {
                 myArray[i] = NULL;
             }
         }
+        top = -1;
     }
 
     void peek() {
