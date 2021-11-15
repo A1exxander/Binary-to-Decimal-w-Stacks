@@ -12,7 +12,7 @@ public:
 
     ArrayStack();
 
-    void push(int value); 
+    void push(const int value); 
 
     void pop();
 
@@ -25,7 +25,7 @@ public:
 
 namespace conversion {
     int getInput();
-    int inputValidation(int range);
+    int inputValidation(const int range);
 	void binaryConversion(int num, ArrayStack& S);
 	void printBinaryConversion(ArrayStack& S);
 };
