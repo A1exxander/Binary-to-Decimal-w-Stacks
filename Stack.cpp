@@ -1,4 +1,3 @@
-#pragma once
 #include "Stack.h"
 
 ArrayStack::ArrayStack() : top{ -1 } {// Member initilizer list instead of assigning the values in the constructor body
