@@ -24,8 +24,8 @@ public:
 };
 
 namespace conversion {
-    int getInput();
-    int inputValidation(const int range);
+    	int getInput();
+   	int inputValidation(const int range);
 	void binaryConversion(int num, ArrayStack& S);
 	void printBinaryConversion(ArrayStack& S);
 };
