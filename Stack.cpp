@@ -3,7 +3,7 @@
 ArrayStack::ArrayStack() : top{ -1 } {// Member initilizer list instead of assigning the values in the constructor body
 }
 
-void ArrayStack::push(int value) {
+void ArrayStack::push(const int value) {
 		if (top < 8) {
 			++top;
 			myArray[top] = value;
@@ -51,7 +51,7 @@ namespace conversion { // Namespace outside of our class body incase we make mul
 	
 		while (num > 0) {
 			S.push(num % 2);
-			num = num / 2;
+			num /= 2;
 		}
 	}
 
