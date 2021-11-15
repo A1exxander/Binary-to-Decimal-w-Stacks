@@ -75,7 +75,7 @@ namespace conversion { // Namespace outside of our class body incase we make mul
 		return num;
 	}
 
-	int inputValidation(int range) {
+	int inputValidation(const int range) {
 		int num{ 256 }; // used to gate loop
 		while (num > range)
 		{
